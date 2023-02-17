@@ -1,0 +1,39 @@
+.callform {
+    width: 100%;
+    height: 185px;
+    display: flex;
+    background: linear-gradient(90deg, #16B5A2 18.23%, #38756E 100%);
+    align-items: center;
+}
+.callform h1 {
+    margin: 0;
+    font-family: 'Museo Sans Cyrl';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0px 165px 0px 288px;
+    
+}
+.callform p {
+    margin: 0;
+    font-family: 'Museo Sans Cyrl';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #000000;
+    background: #FFFFFF;
+    border-radius: 55px;
+    width: 457px;
+    height: 103px;
+    cursor: pointer;
+}
