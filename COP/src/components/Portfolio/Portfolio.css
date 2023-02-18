@@ -2,6 +2,7 @@
     height: 740px;
     width: 100%;
 }
+
 .portfolio-text {
     font-family: 'Museo Sans Cyrl';
     font-style: normal;
@@ -14,17 +15,17 @@
     margin: 50px 0px 0px 150px;
 }
 .case {
-    display: flex;
+    display: block;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
     margin: 50px 41px 0px 42px;
 }
 .cards {
     display: flex;
     flex-direction: row;
+    overflow: hidden;
 }
-#card {
+.card {
     width: 330px;
     height: 500px;
     background: #F5F5F5;
@@ -34,10 +35,11 @@
     justify-content: center;
     align-items: center;
 }
-#card:not(:last-child) {
-    margin-right: 50px;
+.card:not(:last-child) {
+    margin-right: 15px;
+    margin-left: 35px;
 }
-#card h1{
+.card h1{
     margin: 0;
     font-family: 'Museo Sans Cyrl';
     font-style: normal;
@@ -65,8 +67,46 @@
     margin: -15px 0px 0px 0px;
 }
 .arrow_left {
-    
+    margin: 0;
+    cursor: pointer;
+    background: #16B5A2;
+    border-radius: 56px;
+    border-width: 0px;
+    width: 100px;
+    height: 100px;
+    font-family: 'Museo Sans Cyrl';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    padding: 0px 36px 0px 36px;
+}
+.arrow_left:active {
+    background: #16b5a349;
 }
 .arrow_right {
-    
+    margin: 0;
+    cursor: pointer;
+    background: #16B5A2;
+    border-radius: 56px;
+    width: 100px;
+    height: 100px;
+    font-family: 'Museo Sans Cyrl';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    border-width: 0px;
+    padding: 0px 36px 0px 36px;
+}
+.arrow_right:active {
+    background: #16b5a349;
 }
