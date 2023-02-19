@@ -2,7 +2,12 @@
     height: 740px;
     width: 100%;
 }
-
+.slick-slide > div {
+    margin: 0 30px;
+  }
+  .slick-list {
+    margin: 0 -30px;
+  }
 .portfolio-text {
     font-family: 'Museo Sans Cyrl';
     font-style: normal;
@@ -34,6 +39,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 20px;
 }
 .card:not(:last-child) {
     margin-right: 15px;
@@ -48,23 +54,19 @@
     line-height: 54px;
     display: flex;
     align-items: center;
+    justify-content: center;
     text-align: center;
     color: #000000;
-    margin: 0px 0px 37px 0px
+    margin: 40px 0px 0px 0px
 }
 .blockimg {
-    width: 330px;
-    height: 330px;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 .image {
-    width: 275px;
-    height: 275px;
     background: #D9D9D9;
     border-radius: 35px;
-    margin: -15px 0px 0px 0px;
 }
 .arrow_left {
     margin: 0;
