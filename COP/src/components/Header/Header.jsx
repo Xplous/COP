@@ -12,11 +12,11 @@ const Header = () => {
      </div>
      <div className='headdown'>
       <div className='navbar'>
-        <div class='nav1'><h1>услуги</h1></div>
-        <div class='nav2'><h1>о нас</h1></div>
-        <div class='nav3'><h1>наши работы</h1></div>
-        <div class='nav4'><h1>контакты</h1></div>
-        <div class='nav5'><h1>профиль</h1></div>
+        <div className='nav1'><h1>услуги</h1></div>
+        <div className='nav2'><h1>о нас</h1></div>
+        <div className='nav3'><h1>наши работы</h1></div>
+        <div className='nav4'><h1>контакты</h1></div>
+        <div className='nav5'><h1>профиль</h1></div>
       </div>
      </div>
     </div>

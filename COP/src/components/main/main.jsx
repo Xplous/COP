@@ -11,16 +11,16 @@ const Main = () => {
      <div className='main-content'>
         <div className="main-def">
             <div className='section'>
-                <p class='button-p'>Присоединиться к нам?</p>
-                <p class='section-text'>{section_text}</p>
+                <p className='button-p'>Присоединиться к нам?</p>
+                <p className='section-text'>{section_text}</p>
             </div>
             <img src={programmer} className="programmer" alt="programmer"/>
         </div>
         <div className="main-web">
             <img src={desc_left} className="desc_left" alt='computer'/>
             <div className='section-web'>
-                <p class='button-p2'>Заказать сайт?</p>
-                <p class='section-text2'>{section_text_2}</p>
+                <p className='button-p2'>Заказать сайт?</p>
+                <p className='section-text2'>{section_text_2}</p>
             </div>
         </div>
      </div>
