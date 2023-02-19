@@ -1,0 +1,25 @@
+.banner {
+    width: 100%;
+    height: 500px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    
+}
+.picture {
+    max-width: 100%; 
+    height: auto; 
+    display: block;
+}
+.bannertext {
+    font-family: 'Museo Sans Cyrl';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 72px;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 76px;
+    left:194px;
+    
+}
